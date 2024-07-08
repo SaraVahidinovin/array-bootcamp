@@ -50,13 +50,14 @@ let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'];
 console.log("The array contains " + animals.length + " objects.");
 
 /* 4 */
+/* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
 /* I arrayen ovan, hämta cat. */
 console.log(animals[0]);
 
 /* 5 */
 /* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
 /* I arrayen ovan, hämta funky chihuahua. */
-console.log('Uppgift 5');
+console.log(animals[3]);
 
 /* 6 */
 /* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
