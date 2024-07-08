@@ -136,9 +136,14 @@ nums.reverse();
 console.log(nums);
 
 /* 18 */
-/* let str = 'Supercalifragilisticexpialidocious'; */
+let str = 'Supercalifragilisticexpialidocious';
 /* Kika om strängen ovan innehåller bokstaven n. */
-console.log('Uppgift 18');
+
+if (str.includes("n")) {
+    console.log("It includes n");
+} else{
+    console.log("It does not include n");
+}
 
 /* 19 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
