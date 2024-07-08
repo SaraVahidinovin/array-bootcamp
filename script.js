@@ -38,7 +38,11 @@ fruits.forEach((index,fruit) => {
 
 /* 2 */
 /* Gör en array som innehåller 3 olika datatyper, ex. string, number, array. */
-console.log('Uppgift 2');
+let personInfo =["Sara Vahidinovin", 34, ["painting", "dancing"]];
+
+console.log("Name: " + personInfo[0]);
+console.log("Age: " + personInfo[1]);
+console.log("Hobbies: " + personInfo[2].join(", "));
 
 /* 3 */
 /* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
