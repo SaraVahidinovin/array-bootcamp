@@ -81,9 +81,11 @@ c.splice(3, 0, ...d);
 console.log(c);
 
 /* 9 */
-/* let arr = ['a', 'b', 'c']; */
+let arr = ['a', 'b', 'c'];
 /* Klona ovanstående array. */
-console.log('Uppgift 9');
+let clonedArray = Array.from(arr); // let clonedArray = arr.slice(); let clonedArray = [...arr];
+
+console.log(clonedArray);
 
 /* 10 */
 /* let fruits = ['kiwi', 'apple', 'pear']; */
