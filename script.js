@@ -100,19 +100,22 @@ fruits3.unshift("Strawberry");
 console.log(fruits3);
 
 /* 12 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits4 = ['kiwi', 'apple', 'pear'];
 /* I arrayen ovan, ta bort sista frukten i arrayen. */
-console.log('Uppgift 12');
+fruits4.pop();
+console.log(fruits4);
 
 /* 13 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits5 = ['kiwi', 'apple', 'pear']; 
 /* I arrayen ovan, ta bort första frukten i arrayen. */
-console.log('Uppgift 13');
+fruits5.shift();
+console.log(fruits5);
 
 /* 14 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits6 = ['kiwi', 'apple', 'pear'];
 /* Sätt in en frukt i arrayen ovan på index 1. */
-console.log('Uppgift 14');
+fruits6.splice(1,0,"banana")
+console.log(fruits6);
 
 /* 15 */
 /* let fruits = ['kiwi', 'apple', 'pear']; */
