@@ -114,23 +114,26 @@ console.log(fruits5);
 /* 14 */
 let fruits6 = ['kiwi', 'apple', 'pear'];
 /* Sätt in en frukt i arrayen ovan på index 1. */
-fruits6.splice(1,0,"banana")
+fruits6.splice(1,0,"banana");
 console.log(fruits6);
 
 /* 15 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits7 = ['kiwi', 'apple', 'pear'];
 /* Sätt in, tre frukter i arrayen ovan på index 2. */
-console.log('Uppgift 15');
+fruits7.splice(2, 0, "banana", "grape", "blueberry");
+console.log(fruits7);
 
 /* 16 */
-/* let names = ['David', 'Christoffer', 'Johan', 'Maja'] */
+let names = ['David', 'Christoffer', 'Johan', 'Maja']
 /* I arrayen ovan, ta bort Christoffer och Johan. */
-console.log('Uppgift 16');
+names.splice(1, 2);
+console.log(names);
 
 /* 17 */
-/* let nums = [1,2,3,4,5,6,7,8,9]; */
+let nums = [1,2,3,4,5,6,7,8,9];
 /* Spegelvänd på arrayen ovan. */
-console.log('Uppgift 17');
+nums.reverse();
+console.log(nums);
 
 /* 18 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
