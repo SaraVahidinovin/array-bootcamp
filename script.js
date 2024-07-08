@@ -94,9 +94,10 @@ fruits2.push("peach");
 console.log(fruits2);
 
 /* 11 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits3 = ['kiwi', 'apple', 'pear'];
 /* Lägg till en frukt i början av arrayen ovan. */
-console.log('Uppgift 11');
+fruits3.unshift("Strawberry");
+console.log(fruits3);
 
 /* 12 */
 /* let fruits = ['kiwi', 'apple', 'pear']; */
