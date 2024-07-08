@@ -70,13 +70,15 @@ let a = [1,2,3];
 let b = [4,5,6];
 /* Sätt ihop ovanstående arrayer. */
 let combinedArray = a.concat(b);
+// let combinedArray = [...a, ...b];
 console.log(combinedArray);
 
 /* 8 */
-/* let a = [1,2,3,7,8,9]; */
-/* let b = [4,5,6]; */
-/* Merga in array b på index 3 i array a.. */
-console.log('Uppgift 8');
+let c = [1,2,3,7,8,9];
+let d = [4,5,6];
+/* Merga in array d på index 3 i array c.. */
+c.splice(3, 0, ...d);
+console.log(c);
 
 /* 9 */
 /* let arr = ['a', 'b', 'c']; */
