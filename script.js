@@ -209,11 +209,12 @@ console.log(nums2.sort());
 
 /* 29 */
 /* I person-arrayen längst upp i dokumentet, sortera objekten efter ålder, yngst först. */
-console.log('Uppgift 29');
+
+console.log(persons.sort((a,b) => a.age-b.age ));
 
 /* 30 */
 /* I person-arrayen längst upp i dokumentet, sortera objekten efter ålder, äldst först. */
-console.log('Uppgift 30');
+console.log(persons.sort((a,b) => b.age-a.age ));
 
 /* 31 */
 /* I person-arrayen längst upp i dokumentet, sortera objekten i bokstavsordning efter deras namn */
