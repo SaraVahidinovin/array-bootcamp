@@ -88,9 +88,10 @@ let clonedArray = Array.from(arr); // let clonedArray = arr.slice(); let clonedA
 console.log(clonedArray);
 
 /* 10 */
-/* let fruits = ['kiwi', 'apple', 'pear']; */
+let fruits2 = ['kiwi', 'apple', 'pear'];
 /* Lägg till en frukt i slutet av arrayen ovan. */
-console.log('Uppgift 10');
+fruits2.push("peach");
+console.log(fruits2);
 
 /* 11 */
 /* let fruits = ['kiwi', 'apple', 'pear']; */
