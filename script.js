@@ -62,7 +62,8 @@ console.log(animals[3]);
 /* 6 */
 /* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
 /* I arrayen ovan, byt ut hamster mot tiger. */
-console.log('Uppgift 6');
+animals[1]= "tiger";
+console.log(animals);
 
 /* 7 */
 /* let a = [1,2,3]; */
