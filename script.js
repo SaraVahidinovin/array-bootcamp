@@ -45,9 +45,9 @@ console.log("Age: " + personInfo[1]);
 console.log("Hobbies: " + personInfo[2].join(", "));
 
 /* 3 */
-/* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
+let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'];
 /* console.log() hur många objekt arrayen ovan innehåller. */
-console.log('Uppgift 3');
+console.log("The array contains " + animals.length + " objects.");
 
 /* 4 */
 /* let animals = ['cat', 'hamster', 'parrot', 'funky chihuahua'] */
