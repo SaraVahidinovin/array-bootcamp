@@ -30,7 +30,11 @@ let persons = [
 
 /* 1 */
 /* Gör en array som innehåller 5 st olika frukter av datatypen string. */
-console.log('Uppgift 1');
+let fruits = ['peach', 'apple', 'mango', 'watermelon','strawberry'];
+
+fruits.forEach((index,fruit) => {
+    console.log(index,fruit);
+});
 
 /* 2 */
 /* Gör en array som innehåller 3 olika datatyper, ex. string, number, array. */
