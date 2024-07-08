@@ -66,10 +66,11 @@ animals[1]= "tiger";
 console.log(animals);
 
 /* 7 */
-/* let a = [1,2,3]; */
-/* let b = [4,5,6]; */
+let a = [1,2,3];
+let b = [4,5,6];
 /* Sätt ihop ovanstående arrayer. */
-console.log('Uppgift 7');
+let combinedArray = a.concat(b);
+console.log(combinedArray);
 
 /* 8 */
 /* let a = [1,2,3,7,8,9]; */
