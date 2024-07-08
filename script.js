@@ -170,17 +170,20 @@ console.log(fiveFirst);
 /* 22 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
 /* I strängen ovan, plocka fram de 7 sista tecknena. */
-console.log('Uppgift 22');
+let lastSeven = str.slice(-7);
+console.log(lastSeven);
 
 /* 23 */
-/* let numArray = [23, 45, 5, 62, 1, 21, 3, 54]; */
+let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer över 5. Tips: Läs dokumentationen för filter() */
-console.log('Uppgift 23');
+let numAboveFive = numArray.filter ((number) => (number > 5));
+console.log(numAboveFive);
 
 /* 24 */
-/* let numArray = [23, 45, 5, 62, 1, 21, 3, 54]; */
+//let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer under 5. Tips: Läs dokumentationen för filter() */
-console.log('Uppgift 24');
+let numUnderFive = numArray.filter ((number) => (number < 5)); 
+console.log(numUnderFive);
 
 /* 25 */
 /* Skriv ut alla namn som är 18 år eller över från arrayen längst upp i dokumentet. */
