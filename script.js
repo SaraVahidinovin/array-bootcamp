@@ -198,14 +198,14 @@ let juniorsName = juniors.map((person) => person.name);
 console.log(juniorsName);
 
 /* 27 */
-/* let arr = ['beta', 'alfa', 'gamma']; */
+let arr2 = ['beta', 'alfa', 'gamma'];
 /* Sortera ovanstående array alfabetisk. Tips: Läs dokumentattionen för sort() */
-console.log('Uppgift 27');
+console.log(arr2.sort());
 
 /* 28 */
-/* let nums = [1,5,7,9,3,4,2,6,8]; */
+let nums2 = [1,5,7,9,3,4,2,6,8];
 /* Sortera ovanstående array numeriskt. */
-console.log('Uppgift 28');
+console.log(nums2.sort());
 
 /* 29 */
 /* I person-arrayen längst upp i dokumentet, sortera objekten efter ålder, yngst först. */
