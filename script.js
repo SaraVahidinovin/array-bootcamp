@@ -193,7 +193,9 @@ console.log(adultsName);
 
 /* 26 */
 /* Skriv ut alla namn som är under 18 år från arrayen längst upp i dokumentet. */
-console.log('Uppgift 26');
+let juniors = persons.filter((person) => (person.age < 18));
+let juniorsName = juniors.map((person) => person.name);
+console.log(juniorsName);
 
 /* 27 */
 /* let arr = ['beta', 'alfa', 'gamma']; */
