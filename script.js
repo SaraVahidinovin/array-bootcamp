@@ -176,18 +176,20 @@ console.log(lastSeven);
 /* 23 */
 let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer över 5. Tips: Läs dokumentationen för filter() */
-let numAboveFive = numArray.filter ((number) => (number > 5));
+let numAboveFive = numArray.filter((number) => (number > 5));
 console.log(numAboveFive);
 
 /* 24 */
 //let numArray = [23, 45, 5, 62, 1, 21, 3, 54];
 /* I arrayen ovan, filtera fram alla nummer under 5. Tips: Läs dokumentationen för filter() */
-let numUnderFive = numArray.filter ((number) => (number < 5)); 
+let numUnderFive = numArray.filter((number) => (number < 5)); 
 console.log(numUnderFive);
 
 /* 25 */
 /* Skriv ut alla namn som är 18 år eller över från arrayen längst upp i dokumentet. */
-console.log('Uppgift 25');
+let adults = persons.filter((person) => (person.age >= 18));
+let adultsName = adults.map((person) => person.name);
+console.log(adultsName);
 
 /* 26 */
 /* Skriv ut alla namn som är under 18 år från arrayen längst upp i dokumentet. */
