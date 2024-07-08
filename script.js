@@ -83,7 +83,7 @@ console.log(c);
 /* 9 */
 let arr = ['a', 'b', 'c'];
 /* Klona ovanstående array. */
-let clonedArray = Array.from(arr); // let clonedArray = arr.slice(); let clonedArray = [...arr];
+let clonedArray = Array.from(arr); // let clonedArray = arr.slice(); let clonedArray = [...arr]; 
 
 console.log(clonedArray);
 
@@ -148,17 +148,24 @@ if (str.includes("n")) {
 /* 19 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
 /* Kika om strängen ovan innehåller bokstaven x. */
+if (str.includes("x")){
+    console.log("It includes x");
+} else {
+    console.log("It does not include x");
+}
 console.log('Uppgift 19');
 
 /* 20 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
 /* I ovanstående sträng, hitta vilket position första förekomsten av p har. */
-console.log('Uppgift 20');
+let position = str.indexOf("p");
+console.log(position);
 
 /* 21 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
 /* I strängen ovan, plocka fram de 5 första tecknena. */
-console.log('Uppgift 21');
+let fiveFirst = str.slice(0,5);  //let firstFive = str.substring(0, 5);
+console.log(fiveFirst);
 
 /* 22 */
 /* let str = 'Supercalifragilisticexpialidocious'; */
